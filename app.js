@@ -16,4 +16,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 
+
+app.get('/sitemap.xml', function(req, res) {
+    res.sendFile(__dirname + '/sitemap.xml');
+});
+
 module.exports = app;

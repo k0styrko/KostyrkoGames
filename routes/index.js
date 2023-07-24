@@ -6,6 +6,4 @@ router.get('/', function(req, res) {
 	res.render('index.hbs', { nobik: '/games/nobik' });
 });
 
-
-
 module.exports = router;
