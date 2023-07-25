@@ -21,4 +21,8 @@ app.get('/sitemap.xml', function(req, res) {
     res.sendFile(__dirname + '/sitemap.xml');
 });
 
+app.get('/robots.txt', function(req, res) {
+    res.sendFile(__dirname + '/robots.txt');
+});
+
 module.exports = app;
