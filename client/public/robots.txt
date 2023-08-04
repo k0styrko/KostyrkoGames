@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /nobik/
+Sitemap: https://kostyrkogames.k0styrko.repl.co/sitemap.xml
